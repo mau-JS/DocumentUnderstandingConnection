@@ -1,0 +1,39 @@
+{
+  "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6owu3laqhrl4do5qg2dhfbdf2mune66gzhqley53dvymzpf6xvyq",
+  "display_name": "cc7a3a67-a9ee-4670-a9a9-adc06d8126d6",
+  "id": "ocid1.aidocumentprocessorjob.oc1.phx.amaaaaaa7oyylzaa6fuocf2a54frgvanehwimdfyux3gcrp2ac6tpudqcpja",
+  "input_location": {
+    "object_locations": [
+      {
+        "bucket_name": "bucket-20231106-1838",
+        "namespace_name": "ax5dyyuncbga",
+        "object_name": "searchable_document.pdf"
+      }
+    ],
+    "source_type": "OBJECT_STORAGE_LOCATIONS"
+  },
+  "lifecycle_details": null,
+  "lifecycle_state": "SUCCEEDED",
+  "output_location": {
+    "bucket_name": "bucket-20231106-1838",
+    "namespace_name": "ax5dyyuncbga",
+    "prefix": "demo"
+  },
+  "percent_complete": 100.0,
+  "processor_config": {
+    "document_type": "INVOICE",
+    "features": [
+      {
+        "feature_type": "KEY_VALUE_EXTRACTION",
+        "model_id": null,
+        "tenancy_id": null
+      }
+    ],
+    "is_zip_output_enabled": false,
+    "language": null,
+    "processor_type": "GENERAL"
+  },
+  "time_accepted": "2023-11-07T20:51:45.351000+00:00",
+  "time_finished": "2023-11-07T20:51:45.351000+00:00",
+  "time_started": "2023-11-07T20:51:45.351000+00:00"
+}
